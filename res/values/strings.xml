@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myContentProvider</string>
+    <string name="book_name">书名</string>
+    <string name="book_author">作者</string>
+    <string name="book_created">创作日期</string>
+    <string name="book_isdn">图书序列号</string>
+    <string name="insert">插入记录</string>
+    <string name="query">查询记录</string>
+    <string name="delete">删除记录</string>
+    <string name="clear">清空</string>
+    <string name="deleteall">删除所有记录</string>
+    <string name="nomatchedprompt">无相关记录！</string>
+    <string name="book_abstract">内容简介</string>
+    <string name="book_edit">编辑内容</string>
+    <string name="book_content">本书正文</string>
+    <string name="see_content">查看正文</string>
+    <string name="noinfo">无此书内容简介！</string>
+    <string name="query_by_author">作者查询</string>
+    <string name="query_by_name">书名查询</string>
+    <string name="menu_settings">menu</string>
+    <string name="confirm_delete">确定要删除此图书吗？</string>
+	<string name="operation_confirm">操作确认</string>
+	<string name="yes">确定</string>
+	<string name="cancel">取消</string>
+	<string name="update">更新</string>
+	<string name="app_edit">图书编辑</string>
+	<string name="app_addnewbook">添加新图书</string>
+	<string name="app_querylist">查询列表</string>
+	<string name="app_showcontent">图书正文</string>
+	<string name="labelCF">Call forwarding</string>
+	<string name="sum_cfu_enabled_indicator">Forwarding all calls</string>
+	<string name="notification_action_dismiss">Dismiss</string>
+	<string name="description_target_answer">Answer</string>
+</resources>

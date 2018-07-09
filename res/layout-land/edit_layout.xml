@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+     
+   	<EditText
+      android:id="@+id/bookname"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/book_name"
+      android:visibility="visible" />"
+   	
+   	<EditText
+      android:id="@+id/bookauthor"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/book_author"
+      android:visibility="visible"/>
+   	
+   	<EditText
+      android:id="@+id/bookcreated"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/book_created"
+      android:visibility="visible"/>
+   	
+   	<EditText
+      android:id="@+id/bookabstract"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/book_abstract"
+      android:visibility="visible"/>
+   	
+   	<EditText
+      android:id="@+id/bookcontent"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/book_content"
+      android:visibility="visible"/>
+
+   	<LinearLayout 
+   	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >"
+    	
+   	    <Button 
+   	  		android:id="@+id/update"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:layout_weight="1"
+      		android:text="@string/update"/>
+ 
+	   	<Button 
+	   	  	android:id="@+id/clear"
+	      	android:layout_width="fill_parent"
+	      	android:layout_height="wrap_content"
+	      	android:layout_weight="1"
+	      	android:text="@string/clear"/>
+
+   	</LinearLayout>
+
+</LinearLayout>
